@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/User/Documents/TREINOS VSCODE/C++/treino de condicionais",
-      "program": "c:/Users/User/Documents/TREINOS VSCODE/C++/treino de condicionais/build/Debug/outDebug",
+      "cwd": "c:/Users/User/Documents/TREINOS VSCODE/C++/Loops",
+      "program": "c:/Users/User/Documents/TREINOS VSCODE/C++/Loops/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
