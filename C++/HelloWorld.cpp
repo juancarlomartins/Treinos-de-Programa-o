@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     cout << "Hello World!" << endl;
+    //código de sintax básica.
     return 0;
 }
 
