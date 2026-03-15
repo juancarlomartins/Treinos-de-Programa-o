@@ -232,4 +232,44 @@ body {
 
 /* RESPOSIVIDADE PARA MOBILE */
 
+@media (max-width: 768px) {
+    /* Isso é como um if statement: "se tela <= 768px, faça isso" */
+    
+    .cabecalho {
+        flex-direction: column;
+        /* Muda para coluna no celular */
+        
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .menu-lista {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* 1 coluna no celular */
+    }
+    
+    .rodape-colunas {
+        grid-template-columns: 1fr;
+        /* 1 coluna no celular */
+        
+        text-align: center;
+    }
+    
+    .conteudo-principal {
+        width: 95%;
+        /* Mais largura em telas pequenas */
+    }
+}
 
+/* Ajuste para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 colunas em tablets */
+    }
+}
