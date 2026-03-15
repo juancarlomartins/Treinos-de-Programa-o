@@ -165,3 +165,71 @@ body {
     box-shadow: var(--sombra);
 }
 
+.box-destaque {
+    margin-bottom: 1rem;
+}
+
+.box-interna {
+    background: rgba(255,255,255,0.2);
+    /*fundo semi transparente. */
+    padding: 1rem;
+    border-radius: var(--borda-arredondada);
+    margin-top: 1rem;
+    backdrop-filter: blur(5px);
+    /*Efeito de desfoque no fundo */
+}
+
+.rodape {
+    background-color: #1f2937;
+    color: white;
+    padding: 3rem 2rem 1rem 2rem;
+    margin-top: auto;
+    /*Empurra o footer para baixo há pouco conteúdo */
+}
+
+/*Criando o grid de colunas do rodapé */
+.rodape-coluna {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Cada coluna do rodapé */
+.rodape-coluna h4 {
+    margin-bottom: 1rem;
+    color: #9ca3af;
+}
+
+.rodape-coluna ul {
+    list-style: none;
+}
+
+.rodape-coluna li {
+    margin-bottom: 0.5rem;
+}
+
+.rodape-coluna a {
+    color: white;
+    text-decoration:  none;
+    transition: color 0.3s;
+}
+
+.rodape-coluna a:hover {
+    color: var(--cor-primaria)
+}
+
+/* area do copyright */
+.copyright {
+    text-align:  center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #374151;
+    /*Linha separadora sútil */
+    color: #9ca3af;
+}
+
+/* RESPOSIVIDADE PARA MOBILE */
+
+
