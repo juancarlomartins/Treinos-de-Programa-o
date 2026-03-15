@@ -1,9 +1,13 @@
+/* ===== RESET E CONFIGURAÇÕES GLOBAIS ===== */
+/* Isso é como um "constructor" que prepara o ambiente */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;                    /* Remove margens padrão */
+    padding: 0;                   /* Remove paddings padrão */
+    box-sizing: border-box;       /* Faz width/height incluírem padding e border */
+    /* É como se todos os elementos tivessem um novo modelo de caixa */
 }
 
+/* ===== VARIÁVEIS GLOBAIS (como constantes no código) ===== */
 :root {
     --cor-primaria: #2563eb;      /* Azul principal */
     --cor-secundaria: #1e40af;    /* Azul escuro */
@@ -13,6 +17,7 @@
     --borda-arredondada: 8px;      /* Padrão de borda arredondada */
 }
 
+/* ===== ESTILOS DO BODY ===== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* Fontes em ordem de preferência (fallback) */
@@ -52,42 +57,55 @@ body {
     /* Garante que fique acima de outros elementos */
 }
 
+/* Logo */
 .logo h1 {
     color: var(--cor-primaria);
     font-size: 1.8rem;
 }
 
+/* ===== MENU DE NAVEGAÇÃO ===== */
 .menu-lista {
     display: flex;
     gap: 2rem;
-    list-style: none; /* Remove as bolinhas da lista */
+    /* gap = espaço ENTRE os itens (ótimo para flex/grid) */
+    
+    list-style: none;
+    /* Remove as bolinhas da lista */
 }
 
 .menu-lista a {
-    text-decoration: none; /* Remove os sublinhados dos links */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    
     color: var(--cor-texto);
     font-weight: 500;
-    transition: color 0.3s ease; /* transition = animação suave */
+    transition: color 0.3s ease;
+    /* transition = animação suave (como easing em animações) */
 }
 
 .menu-lista a:hover {
-    color: var(--cor-primaria); /*Criando um efeito de hover com quando o mouse passa por cima. */
+    color: var(--cor-primaria);
+    /* hover = quando passa o mouse por cima (pseudo-classe) */
 }
 
-/* estilizando o conteúdo principal do site */
+/* ===== CONTEÚDO PRINCIPAL ===== */
 .conteudo-principal {
-    flex: 1; /* flex: 1 = cresce para ocupar espaço disponível (importante para footer fixo) */
-
+    flex: 1;
+    /* flex: 1 = cresce para ocupar espaço disponível (importante para footer fixo) */
+    
     max-width: 1200px;
-    /* largura máxima para telas grandes.*/
+    /* Largura máxima em telas grandes */
+    
     margin: 0 auto;
-    /* centraliza horizontalmente */
-    width: 90%; 
+    /* margin: auto = centraliza horizontalmente */
+    
+    width: 90%;
     /* Em telas menores, ocupa 90% */
+    
     padding: 2rem 0;
 }
 
-/*Código da seção de bem-vindo */
+/* Seção bem-vindo */
 .bem-vindo {
     text-align: center;
     margin-bottom: 3rem;
@@ -99,55 +117,67 @@ body {
     margin-bottom: 1rem;
 }
 
-/* GRID de cards (parte mais importante no uso de CSS) */
+/* ===== GRID DE CARDS (AQUI É ONDE A MÁGICA ACONTECE) ===== */
 .grid-container {
-    display: grid; /*Ativa o CSS grid. */
-
+    display: grid;
+    /* Ativa o CSS Grid */
+    
     grid-template-columns: repeat(4, 1fr);
-    /*Cria 4 colunas de tamanhos iguais */
-
-    gap: 1.5rem; /*Espaços entre os cards. */
-
+    /* Cria 4 colunas de tamanhos iguais */
+    /* 1fr = uma fração do espaço disponível (como flex-grow) */
+    
+    gap: 1.5rem;
+    /* Espaço entre os cards */
+    
     margin-bottom: 3rem;
 }
 
-/*Configurando o estilo dos cards */
+/* Card individual */
 .card {
     background: white;
     border-radius: var(--borda-arredondada);
-    overflow: hidden; /*esconde conteúdo que ultrapasse a borda */
+    overflow: hidden;
+    /* Esconde conteúdo que ultrapassa a borda */
+    
     box-shadow: var(--sombra);
-    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Múltiplas transições */
 }
 
 .card:hover {
-    transform: translate(-5px);
+    transform: translateY(-5px);
+    /* Sobe 5px ao passar o mouse (efeito flutuante) */
+    
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    /* Sombra mais forte no hover */
 }
 
 .card h3 {
-    background-color:  var(--cor-primaria);
+    background-color: var(--cor-primaria);
     color: white;
     padding: 1rem;
     margin: 0;
 }
 
-.card p{
+.card p {
     padding: 1rem;
     color: var(--cor-texto);
     line-height: 1.5;
+    /* Altura da linha para melhor legibilidade */
 }
 
 .btn {
     margin: 0 1rem 1rem 1rem;
+    /* top right bottom left */
+    
     padding: 0.5rem 1rem;
     background-color: var(--cor-primaria);
     color: white;
     border: none;
     border-radius: var(--borda-arredondada);
     cursor: pointer;
-    /* muda o cursor para mãozinha */
+    /* Muda o cursor para mãozinha */
+    
     transition: background-color 0.3s ease;
 }
 
@@ -155,9 +185,11 @@ body {
     background-color: var(--cor-secundaria);
 }
 
-/*===BOX de Destaque ===*/
+/* ===== BOX DE DESTAQUE ===== */
 .box-destaque {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* Gradiente de fundo */
+    
     color: white;
     padding: 2rem;
     border-radius: var(--borda-arredondada);
@@ -165,41 +197,48 @@ body {
     box-shadow: var(--sombra);
 }
 
-.box-destaque {
+.box-destaque h2 {
     margin-bottom: 1rem;
 }
 
 .box-interna {
     background: rgba(255,255,255,0.2);
-    /*fundo semi transparente. */
+    /* Fundo semi-transparente */
+    
     padding: 1rem;
     border-radius: var(--borda-arredondada);
     margin-top: 1rem;
     backdrop-filter: blur(5px);
-    /*Efeito de desfoque no fundo */
+    /* Efeito de desfoque no fundo (moderno) */
 }
 
+/* ===== RODAPÉ ===== */
 .rodape {
     background-color: #1f2937;
+    /* Cinza escuro */
+    
     color: white;
     padding: 3rem 2rem 1rem 2rem;
     margin-top: auto;
-    /*Empurra o footer para baixo há pouco conteúdo */
+    /* Empurra o footer para baixo quando há pouco conteúdo */
 }
 
-/*Criando o grid de colunas do rodapé */
-.rodape-coluna {
+/* Grid de colunas no rodapé */
+.rodape-colunas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas de tamanhos iguais */
+    
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/*Cada coluna do rodapé */
+/* Cada coluna do rodapé */
 .rodape-coluna h4 {
     margin-bottom: 1rem;
     color: #9ca3af;
+    /* Cinza claro */
 }
 
 .rodape-coluna ul {
@@ -212,26 +251,27 @@ body {
 
 .rodape-coluna a {
     color: white;
-    text-decoration:  none;
-    transition: color 0.3s;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .rodape-coluna a:hover {
-    color: var(--cor-primaria)
+    color: var(--cor-primaria);
 }
 
-/* area do copyright */
+/* Copyright */
 .copyright {
-    text-align:  center;
+    text-align: center;
     margin-top: 3rem;
     padding-top: 1rem;
     border-top: 1px solid #374151;
-    /*Linha separadora sútil */
+    /* Linha separadora sutil */
+    
     color: #9ca3af;
+    font-size: 0.9rem;
 }
 
-/* RESPOSIVIDADE PARA MOBILE */
-
+/* ===== RESPONSIVIDADE (para celulares) ===== */
 @media (max-width: 768px) {
     /* Isso é como um if statement: "se tela <= 768px, faça isso" */
     

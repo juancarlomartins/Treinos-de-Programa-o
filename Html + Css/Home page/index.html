@@ -1,61 +1,82 @@
 <!DOCTYPE html>
+<!-- Declaração do tipo de documento - como um import obrigatório -->
 <html lang="pt-BR">
+<!-- O elemento raiz, como a classe principal do seu programa -->
 
 <head>
-    <meta charset="UTF=8">
+    <!-- HEAD = Configurações (como um arquivo de configuração) -->
+    <meta charset="UTF-8">
+    <!-- Meta charset = Define a codificação de caracteres (como setar encoding no Python) -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Inicial</title>
+    <!-- Viewport = Configura a escala para dispositivos móveis (responsividade) -->
+    
+    <title>Minha Página Profissional</title>
+    <!-- Title = Título da aba do navegador -->
+    
     <link rel="stylesheet" href="style.css">
+    <!-- Link = Importa o CSS (como import de biblioteca) -->
 </head>
 
 <body>
+    <!-- BODY = Corpo da página (o que o usuário vê) -->
+    
+    <!-- HEADER = Cabeçalho (como um componente React) -->
     <header class="cabecalho">
+        <!-- class = Identificador para CSS (como nome de classe para estilizar) -->
+        
         <div class="logo">
-            <h1>Meu site</h1>
+            <!-- div = Container genérico (como um objeto vazio) -->
+            <h1>Meu Site</h1>
+            <!-- h1 = Título principal (heading level 1) -->
         </div>
-
-        <!--Criando com nav o menu de navegação-->
+        
+        <!-- NAV = Menu de navegação (semântico) -->
         <nav class="menu">
             <ul class="menu-lista">
-                <!-- ul = Lista não ordenada de itens-->
-                <!-- li = Item da lista -->
+                <!-- ul = Lista não ordenada (unordered list) -->
+                <!-- li = Item da lista (list item) -->
                 <li><a href="#home">Início</a></li>
-                <!-- a = link (âncora)-->
+                <!-- a = Link (âncora) -->
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#serviços">Serviços</a></li>
-                <li><a href="#contado">Contato</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- MAIN = conteúdo principal (apenas um por página)-->
-    <main class="conteudo-princial">
-        <!--Criando uma seção de boas vindas-->
+    <!-- MAIN = Conteúdo principal (apenas UM por página) -->
+    <main class="conteudo-principal">
+        
+        <!-- Seção de boas-vindas -->
         <section class="bem-vindo">
+            <!-- section = Seção temática do conteúdo -->
             <h2>Bem-vindo ao nosso site!</h2>
-            <p>Este é o exemplo de projeto de página com grid, flexbox e muito mais.</p>
+            <p>Este é um exemplo de página com grid, flexbox e muito mais.</p>
         </section>
 
-        <!--Criando um grid de cards com css-->
+        <!-- GRID DE CARDS (aqui usaremos CSS Grid) -->
         <section class="grid-container">
+            <!-- Cada card é uma div (caixa) -->
             <div class="card">
+                <!-- div class="card" = Cada card é como uma instância de classe -->
                 <h3>Card 1</h3>
-                <p>Este é o primeiro card do nosso grid, aqui podemos colocar qualquer conteúdo</p>
+                <p>Este é o primeiro card do nosso grid. Aqui podemos colocar qualquer conteúdo.</p>
                 <button class="btn">Saiba mais</button>
             </div>
-
+            
             <div class="card">
                 <h3>Card 2</h3>
-                <p>O css grid organiza estes cards automaticamente em colunas</p>
+                <p>O CSS Grid organiza estes cards automaticamente em colunas.</p>
                 <button class="btn">Saiba mais</button>
             </div>
-
+            
             <div class="card">
                 <h3>Card 3</h3>
                 <p>Responsivo e flexível, se adapta a qualquer tela.</p>
                 <button class="btn">Saiba mais</button>
             </div>
-
+            
             <div class="card">
                 <h3>Card 4</h3>
                 <p>Mais um card para mostrar o poder do grid.</p>
@@ -63,47 +84,52 @@
             </div>
         </section>
 
-         <!--BOX de conteúdo (usando div simples)-->
-            <div class="box-destaque">
-                <h2>Área em destaque</h2>
-                <p>Esta é uma box simples com padding, margin e bordas estilizadas</p>
-                <div class="box-interna">
-                    <!-- Podemos aninhar div(Como objetos dentro de objetos)-->
-                     <p>Conteúdo interno da box, mostrando a hierarquia.</p>
-                </div>
-            </div>      
+        <!-- BOX DE CONTEÚDO (usando div simples) -->
+        <div class="box-destaque">
+            <!-- div com classe específica para estilização -->
+            <h2>Área em Destaque</h2>
+            <p>Esta é uma box simples com padding, margin e bordas estilizadas.</p>
+            <div class="box-interna">
+                <!-- Podemos aninhar divs (como objetos dentro de objetos) -->
+                <p>Conteúdo interno da box, mostrando hierarquia.</p>
+            </div>
+        </div>
     </main>
 
-    <!-- FOOTER = Rodapé do site -->
-     <footer class="rodape">
-        <!-- Criando a primeira coluna do rodapé -->
-        <div class="rodape-coluna">
-            <h4>Sobre nós</h4>
-            <p>Sou um estagiário de desenvolvimento web aprimrando meus conhecimentos e estudando cada vez mais.</p>
+    <!-- FOOTER = Rodapé -->
+    <footer class="rodape">
+        <!-- footer = Rodapé da página -->
+        
+        <div class="rodape-colunas">
+            <!-- Primeira coluna do rodapé -->
+            <div class="rodape-coluna">
+                <h4>Sobre Nós</h4>
+                <p>Somos uma empresa fictícia criada para demonstrar HTML e CSS.</p>
+            </div>
+            
+            <!-- Segunda coluna do rodapé -->
+            <div class="rodape-coluna">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                </ul>
+            </div>
+            
+            <!-- Terceira coluna do rodapé -->
+            <div class="rodape-coluna">
+                <h4>Contato</h4>
+                <p>Email: exemplo@email.com</p>
+                <p>Telefone: (11) 99999-9999</p>
+            </div>
         </div>
-
-         <!-- Segunda coluna do rodapé -->
-        <div class="rodape-coluna">
-            <h4>Links rápidos</h4>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-            </ul>
-        </div>
-
-        <!-- Terceira coluna do rodape-->
-        <div class="rodape-coluna">
-            <h4>Contato</h4>
-            <p>Email: juanmartins.dev@gmail.com</p>
-            <p>Telefone: (91) 98372-1109</p>
-        </div>
-
+        
         <!-- Linha de copyright (sempre no rodapé) -->
         <div class="copyright">
-            <p>&copy; Juan Martins dev 2026. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
             <!-- &copy; = símbolo de copyright (entity) -->
         </div>
-     </footer>
+    </footer>
 </body>
 </html>
