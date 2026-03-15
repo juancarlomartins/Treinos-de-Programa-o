@@ -1,5 +1,5 @@
 #Criando uma calculadora simples usando python.
-
+##Autor:Juan Carlo Teles Martins
 nome = input("Digite o seu nome: ")
 
 print(f"\nOlá, {nome}! Seja bem-vindo ao meu programa de calculadora.\n")
