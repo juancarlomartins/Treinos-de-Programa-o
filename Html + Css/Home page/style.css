@@ -74,5 +74,94 @@ body {
     color: var(--cor-primaria); /*Criando um efeito de hover com quando o mouse passa por cima. */
 }
 
-/* estilizando o conteúdo principal do site
+/* estilizando o conteúdo principal do site */
+.conteudo-principal {
+    flex: 1; /* flex: 1 = cresce para ocupar espaço disponível (importante para footer fixo) */
+
+    max-width: 1200px;
+    /* largura máxima para telas grandes.*/
+    margin: 0 auto;
+    /* centraliza horizontalmente */
+    width: 90%; 
+    /* Em telas menores, ocupa 90% */
+    padding: 2rem 0;
+}
+
+/*Código da seção de bem-vindo */
+.bem-vindo {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.bem-vindo h2 {
+    font-size: 2.5rem;
+    color: var(--cor-primaria);
+    margin-bottom: 1rem;
+}
+
+/* GRID de cards (parte mais importante no uso de CSS) */
+.grid-container {
+    display: grid; /*Ativa o CSS grid. */
+
+    grid-template-columns: repeat(4, 1fr);
+    /*Cria 4 colunas de tamanhos iguais */
+
+    gap: 1.5rem; /*Espaços entre os cards. */
+
+    margin-bottom: 3rem;
+}
+
+/*Configurando o estilo dos cards */
+.card {
+    background: white;
+    border-radius: var(--borda-arredondada);
+    overflow: hidden; /*esconde conteúdo que ultrapasse a borda */
+    box-shadow: var(--sombra);
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    /* Múltiplas transições */
+}
+
+.card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    background-color:  var(--cor-primaria);
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.card p{
+    padding: 1rem;
+    color: var(--cor-texto);
+    line-height: 1.5;
+}
+
+.btn {
+    margin: 0 1rem 1rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    border-radius: var(--borda-arredondada);
+    cursor: pointer;
+    /* muda o cursor para mãozinha */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--cor-secundaria);
+}
+
+/*===BOX de Destaque ===*/
+.box-destaque {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: var(--borda-arredondada);
+    margin-bottom: 2rem;
+    box-shadow: var(--sombra);
+}
 
