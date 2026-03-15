@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <h1>Meu site</h1>
+        </div>
+
+        <!--Criando com nav o menu de navegação-->
+        <nav class="menu">
+            <ul class="menu-lista">
+                <!-- ul = Lista não ordenada de itens-->
+                <!-- li = Item da lista -->
+                <li><a href="#home">Início</a></li>
+                <!-- a = link (âncora)-->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#contado">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN = conteúdo principal (apenas um por página)-->
+    <main class="conteudo-princial">
+        <!--Criando uma seção de boas vindas-->
+        <section class="bem-vindo">
+            <h2>Bem-vindo ao nosso site!</h2>
+            <p>Este é o exemplo de projeto de página com grid, flexbox e muito mais.</p>
+        </section>
+
+        <!--Criando um grid de cards com css-->
+        <section class="grit-conteiner">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Este é o primeiro card do nosso grid, aqui podemos colocar qualquer conteúdo</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>O css grid organiza estes cards automaticamente em colunas</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Responsivo e flexível, se adapta a qualquer tela.</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Mais um card para mostrar o poder do grid.</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+        </section>
+
+         <!--BOX de conteúdo (usando div simples)-->
+            <div class="box-destaque">
+                <h2>Área em destaque</h2>
+                <p>Esta é uma box simples com padding, margin e bordas estilizadas</p>
+                <div class="box-interna">
+                    <!-- Podemos aninhar div(Como objetos dentro de objetos)-->
+                     <p>Conteúdo interno da box, mostrando a hierarquia.</p>
+                </div>
+            </div>      
+    </main>
+
+    <!-- FOOTER = Rodapé do site -->
+     <footer class="rodape">
+        <!-- Criando a primeira coluna do rodapé -->
+        <div class="rodape-coluna">
+            <h4>Sobre nós</h4>
+            <p>Sou um estagiário de desenvolvimento web aprimrando meus conhecimentos e estudando cada vez mais.</p>
+        </div>
+
+         <!-- Segunda coluna do rodapé -->
+        <div class="rodape-coluna">
+            <h4>Links rápidos</h4>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+            </ul>
+        </div>
+
+        <!-- Terceira coluna do rodape-->
+        <div class="rodape-coluna">
+            <h4>Contato</h4>
+            <p>Email: juanmartins.dev@gmail.com</p>
+            <p>Telefone: (91) 98372-1109</p>
+        </div>
+
+        <!-- Linha de copyright (sempre no rodapé) -->
+        <div class="copyright">
+            <p>&copy; Juan Martins dev 2026. Todos os direitos reservados.</p>
+            <!-- &copy; = símbolo de copyright (entity) -->
+        </div>
+     </footer>
+</body>
+</html>

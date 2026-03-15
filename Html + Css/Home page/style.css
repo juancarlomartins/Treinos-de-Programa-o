@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #2563eb;      /* Azul principal */
+    --cor-secundaria: #1e40af;    /* Azul escuro */
+    --cor-texto: #333;            /* Cor do texto */
+    --cor-fundo: #f3f4f6;         /* Cor de fundo clara */
+    --sombra: 0 4px 6px rgba(0,0,0,0.1); /* Sombra padrão */
+    --borda-arredondada: 8px;      /* Padrão de borda arredondada */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fontes em ordem de preferência (fallback) */
+    
+    background-color: var(--cor-fundo);
+    /* Usando variável CSS (como usar uma constante) */
+    
+    min-height: 100vh;
+    /* vh = viewport height - 100% da altura da tela */
+    
+    display: flex;
+    flex-direction: column;
+    /* Flex column = organiza tudo em coluna (header, main, footer) */
+}
+
+/* ===== CABEÇALHO ===== */
+.cabecalho {
+    background-color: white;
+    box-shadow: var(--sombra);
+    /* Sombra usando a variável definida */
+    
+    padding: 1rem 2rem;
+    /* 1rem = 16px (unidade relativa) - superior/inferior | esquerda/direita */
+    
+    display: flex;
+    justify-content: space-between;
+    /* space-between = joga logo pra esquerda, menu pra direita */
+    
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    
+    position: sticky;
+    top: 0;
+    /* sticky = gruda no topo ao rolar (como fixed, mas dentro do fluxo) */
+    
+    z-index: 100;
+    /* Garante que fique acima de outros elementos */
+}
+
+.logo h1 {
+    color: var(--cor-primaria);
+    font-size: 1.8rem;
+}
+
+.menu-lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none; /* Remove as bolinhas da lista */
+}
+
+.menu-lista a {
+    text-decoration: none; /* Remove os sublinhados dos links */
+    color: var(--cor-texto);
+    font-weight: 500;
+    transition: color 0.3s ease; /* transition = animação suave */
+}
+
+.menu-lista a:hover {
+    color: var(--cor-primaria); /*Criando um efeito de hover com quando o mouse passa por cima. */
+}
+
+/* estilizando o conteúdo principal do site
+

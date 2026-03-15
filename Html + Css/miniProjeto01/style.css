@@ -1,0 +1,28 @@
+/*Estilizando o site e seus componentes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: linear-gradient(135deg, #7e8dcf 0%, #9269bb 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+p {
+    color: rgb(87, 46, 46);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
