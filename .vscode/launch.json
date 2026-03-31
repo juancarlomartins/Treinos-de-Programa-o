@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "nome",
+      "request": "launch",
+      "mainClass": "nome",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
