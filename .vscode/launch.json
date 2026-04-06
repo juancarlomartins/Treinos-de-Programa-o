@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "codigo",
+      "request": "launch",
+      "mainClass": "codigo",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "nota",
       "request": "launch",
       "mainClass": "nota",

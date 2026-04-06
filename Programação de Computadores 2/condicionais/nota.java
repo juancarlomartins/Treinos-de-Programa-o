@@ -19,6 +19,5 @@ public class nota {
 /// git status
 /// git commit
 /// git push
-///tu é doido
     }   
 }
