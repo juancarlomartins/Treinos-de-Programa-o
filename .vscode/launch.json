@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "tabuada",
+      "request": "launch",
+      "mainClass": "tabuada",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "counter",
+      "request": "launch",
+      "mainClass": "counter",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "treino",
+      "request": "launch",
+      "mainClass": "treino",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "questao2",
       "request": "launch",
       "mainClass": "questao2",
