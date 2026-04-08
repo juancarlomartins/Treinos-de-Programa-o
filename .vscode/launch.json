@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "buscaLinear",
+      "request": "launch",
+      "mainClass": "buscaLinear",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "tabuada",
       "request": "launch",
       "mainClass": "tabuada",
