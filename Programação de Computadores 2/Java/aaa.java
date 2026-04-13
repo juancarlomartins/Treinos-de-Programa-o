@@ -21,9 +21,9 @@ public class aaa {
             
             System.out.println("Deseja continuar? 1- sim | 2- sair.");
             opcao = scanner.nextInt();
-            //scanner.close();
         }
-
+        scanner.close();
+        
         System.out.println("Fim do programa.");
     }
 }
