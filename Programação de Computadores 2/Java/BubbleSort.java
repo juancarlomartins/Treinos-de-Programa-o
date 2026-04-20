@@ -32,7 +32,7 @@ public class BubbleSort {
         Arrays.sort(ordenado);
 
         long somaDes = 0, somaOrd = 0;
-
+        //Trecho para o vetor desordenado.
         for (int i = 0; i < 10; i++) {
             int[] copia = desordenado.clone();
             long ini = System.nanoTime();
@@ -40,7 +40,7 @@ public class BubbleSort {
             long fim = System.nanoTime();
             somaDes += (fim - ini);
         }
-
+        //Trecho para o vetor ordenado.
         for (int i = 0; i < 10; i++) {
             int[] copia = ordenado.clone();
             long ini = System.nanoTime();
