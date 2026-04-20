@@ -5,6 +5,34 @@
       "type": "java",
       "name": "InsertionSort",
       "request": "launch",
+      "mainClass": "InsertionSort",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "SelectionSort",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "testeTrab",
+      "request": "launch",
+      "mainClass": "testeTrab",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
       "mainClass": "JavaMonstro.trabalho.InsertionSort",
       "projectName": "TREINOS VSCODE_e51d1ad6"
     },
