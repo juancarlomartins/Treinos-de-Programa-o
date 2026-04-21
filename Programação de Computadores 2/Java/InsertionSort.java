@@ -27,7 +27,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-
+        // vetor desordenado e ordenado.
         int[] desordenado = gerarVetor();
         int[] ordenado = desordenado.clone();
         Arrays.sort(ordenado);
