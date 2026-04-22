@@ -6,7 +6,7 @@ public class aaa {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Vamos começar? 1- sim | 2- sair.");
         int opcao = 1;
-
+        //criando um loop onde vai funcionar a calculadora
         while(opcao == 1){
             System.out.println("Digite o valor do número: ");
             int num = scanner.nextInt();
