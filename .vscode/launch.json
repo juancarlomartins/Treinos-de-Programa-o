@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mergeSort_",
+      "request": "launch",
+      "mainClass": "mergeSort_",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "InsertionSort",
       "request": "launch",
       "mainClass": "InsertionSort",

@@ -58,3 +58,10 @@ public class mergeSort_ {
         sc.close();
     }
 }
+
+
+/**
+ * Como criar vários comentários em várias linhas
+ * em java.
+ * 
+ */
