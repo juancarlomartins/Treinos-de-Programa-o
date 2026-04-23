@@ -15,7 +15,7 @@ public class mergeSort_ {
         return merge(esquerda, direita);
     }
     
-    // Função de mesclagem
+    // Função de mesclagem      
     public static int[] merge(int[] esq, int[] dir) {
         int[] resultado = new int[esq.length + dir.length];
         int i = 0, j = 0, k = 0;
