@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "empresa",
+      "request": "launch",
+      "mainClass": "empresa",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "mergeSort_",
       "request": "launch",
       "mainClass": "mergeSort_",
