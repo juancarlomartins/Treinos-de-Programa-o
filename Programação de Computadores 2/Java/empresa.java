@@ -1,21 +1,16 @@
 public class empresa {
 
-    // Classe Funcionario
     static class Funcionario {
-
-        // 1) Atributos privados
         private double salario;
         private String cargo;
         private String departamento;
 
-        // Construtor
         public Funcionario(double salario, String cargo, String departamento) {
             setSalario(salario);
             this.cargo = cargo;
             this.departamento = departamento;
         }
 
-        // 2) Setter com validação
         public void setSalario(double salario) {
             if (salario >= 1412.00) {
                 this.salario = salario;
@@ -28,7 +23,6 @@ public class empresa {
             return salario;
         }
 
-        // 3) Getter em maiúsculas
         public String getCargo() {
             return cargo.toUpperCase();
         }
@@ -37,7 +31,6 @@ public class empresa {
             this.cargo = cargo;
         }
 
-        // 4) Package-private (sem modificador)
         String getDepartamento() {
             return departamento;
         }
@@ -47,7 +40,6 @@ public class empresa {
         }
     }
 
-    // Método principal (execução)
     public static void main(String[] args) {
 
         Funcionario f = new Funcionario(2000, "analista", "TI");
