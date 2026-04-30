@@ -11,7 +11,7 @@ public class SelectionSort {
                 if (vetor[j] < vetor[menor]) {
                     menor = j;
                 }
-            }
+            }   
             int temp = vetor[i];
             vetor[i] = vetor[menor];
             vetor[menor] = temp;

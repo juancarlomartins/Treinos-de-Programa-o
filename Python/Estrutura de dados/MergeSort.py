@@ -115,7 +115,7 @@ def exibir_vetor(vetor, titulo):
     titulo - texto que aparece antes da lista
     """
     
-    print(f"\n{titulo}")
+    print(f"\n{titulo}")   
     print("-" * 50)  # Linha separadora de 50 traços
     
     # Exibe os elementos em linhas de 10 números para facilitar a visualização
@@ -130,7 +130,7 @@ def exibir_vetor(vetor, titulo):
 
 
 # PROGRAMA PRINCIPAL
-def main():
+def main():  
     """
     Função principal que controla o fluxo do programa
     """
