@@ -12,7 +12,7 @@ public class empresa {
         }    
 
         public void setSalario(double salario) {
-            if (salario >= 1412.00) {
+            if (salario >= 1412.00) {  
                 this.salario = salario;
             } else {
                 throw new IllegalArgumentException("Salário não pode ser menor que R$ 1.412,00");
