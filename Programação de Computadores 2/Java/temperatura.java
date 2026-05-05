@@ -8,7 +8,7 @@ public class temperatura {
 
         System.out.println("=== Calculadora de Temperatura===");
         System.out.println("Quantos dias você deseja cadastrar? ");
-        int quantidade = input.nextInt();
+        int quantidade = input.nextInt();   
         input.nextLine(); //limpando o buffer de memória.
 
         int [] dias = new int[quantidade];  

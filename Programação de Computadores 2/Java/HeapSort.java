@@ -6,7 +6,7 @@ public class HeapSort {
     
     public static void main(String[] args) {
         int tamanho = 200;
-        
+          
         int[] originalDesordenado = gerarVetorAleatorio(tamanho);
         int[] originalOrdenado = gerarVetorOrdenado(tamanho);
         

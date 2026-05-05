@@ -9,7 +9,7 @@ public class empresa {
             setSalario(salario);
             this.cargo = cargo;
             this.departamento = departamento;
-        }    
+        }        
 
         public void setSalario(double salario) {
             if (salario >= 1412.00) {  

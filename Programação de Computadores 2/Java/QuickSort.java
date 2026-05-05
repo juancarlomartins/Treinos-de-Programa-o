@@ -13,7 +13,7 @@ public class QuickSort {
         System.out.println("--- QUICK SORT ---");
         System.out.println("Tamanho do vetor: " + tamanho + " elementos\n");
         
-        long[] temposDesordenado = new long[10];
+        long[] temposDesordenado = new long[10];   
         long[] temposOrdenado = new long[10];
         
         for (int i = 0; i < 10; i++) {

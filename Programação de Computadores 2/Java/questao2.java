@@ -44,7 +44,7 @@ public class questao2 {
             } else if(operacao == 4){
                 System.out.println("1- Divisão\n");
                 System.out.println("Digite o valor do primeiro número: ");
-                double num = scanner.nextDouble();
+                double num = scanner.nextDouble();   
                 System.out.println("Digite o valor do segundo número: ");
                 double num2 = scanner.nextDouble();
                 System.out.println("Resultado: " + (num / num2) + ".\n");
