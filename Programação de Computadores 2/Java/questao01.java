@@ -12,7 +12,7 @@ public class questao01 {
         int[] sensoresPorAndar = new int[numeroAndares];
         int[] sensoresLigadosPorAndar = new int[numeroAndares];
 
-        int totalAlertas = 0;
+        int totalAlertas = 0;   
 
         for (int andar = 1; andar <= numeroAndares; andar++){
             System.out.println("\nAndar " + andar + ". ");
