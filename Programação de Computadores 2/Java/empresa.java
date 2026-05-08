@@ -20,7 +20,7 @@ public class empresa {
         }
 
         public double getSalario() {
-            return salario;
+            return salario;  
         }
 
         public String getCargo() {
