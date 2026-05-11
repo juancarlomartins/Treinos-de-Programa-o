@@ -12,7 +12,7 @@ public class BubbleSort {
                     vetor[j] = vetor[j + 1];
                     vetor[j + 1] = temp;
                 }
-            }
+            }  
         }
     }
 
