@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "java",
+      "request": "launch",
+      "mainClass": "java",
+      "projectName": "TREINOS VSCODE_e51d1ad6"
+    },
+    {
+      "type": "java",
       "name": "HeapSort",
       "request": "launch",
       "mainClass": "HeapSort",
