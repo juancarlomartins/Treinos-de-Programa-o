@@ -7,9 +7,12 @@ public class ola {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Olá seja bem-vindo ao meu programa!");
-        System.out.println("Digite o seu nome: ");
-        String nome = scanner.nextLine(); // Lê a linha de entrada do usuário
-        System.out.println("Olá " + nome + ", é um prazer te conhecer!");
-        // scanner.nextLine(); // Lê a linha de entrada do usuário
+        
+
+        int []vetor = {1, 2, 3, 4, 5};
+
+        for(int i = 0; i < vetor.length; i++){
+            System.out.println(vetor[i]);
+        }
     }
 }
