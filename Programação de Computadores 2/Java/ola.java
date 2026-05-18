@@ -8,8 +8,6 @@ public class ola {
     private String numeroTelefone;
     public static void main(String[] args){
         // adicionei o scanner para ler a entrada do usuário, mas por enquanto ele não está sendo utilizado
-
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Olá seja bem-vindo ao meu programa!");
         
@@ -19,17 +17,15 @@ public class ola {
         for(int i = 0; i < vetor.length; i++){
             System.out.println(vetor[i]);
         }
-
         
         boolean flag = true;
 
-        
+        // bora ver mano
         String nome;
         System.out.println("Digite o seu nome aqui carai.");
         nome = scanner.nextLine();
         
         System.out.println("Olá " + nome + " seja bem-vindo!");
-
 
         // implementação extra no código
         if(flag == true){
