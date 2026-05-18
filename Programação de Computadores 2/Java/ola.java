@@ -1,31 +1,29 @@
 import java.util.Scanner;
 public class ola {
 
-    private int numero;
-    private String nomeJogador;
-    private String nomeInimigo;
-    private String cpf;
-    private String numeroTelefone;
+    public int numero;
+    public String nomeJogador;
+    public String nomeInimigo;
+    public String cpf;
+    public String numeroTelefone;
     public static void main(String[] args){
         // adicionei o scanner para ler a entrada do usuário, mas por enquanto ele não está sendo utilizado
         Scanner scanner = new Scanner(System.in);
         System.out.println("Olá seja bem-vindo ao meu programa!");
         
-
-        int []vetor = {1, 2, 3, 4, 5}; 
-
-        for(int i = 0; i < vetor.length; i++){
-            System.out.println(vetor[i]);
-        }
-        
         boolean flag = true;
-
-        // bora ver mano
+        int num = 1;
         String nome;
-        System.out.println("Digite o seu nome aqui carai.");
+        nome = "Juan";
+
+        System.out.println("Olá " + nome + " Bora testar esse programa aqui.");
+        // bora ver mano
+        System.out.println("Digite qualquer coisa aqui pra eu ver um negócio.");
         nome = scanner.nextLine();
         
         System.out.println("Olá " + nome + " seja bem-vindo!");
+
+
 
         // implementação extra no código
         if(flag == true){
