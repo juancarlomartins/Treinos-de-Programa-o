@@ -15,6 +15,7 @@ public class ola {
         int num = 1;
         String nome;
         nome = "Juan";
+        String boraVerEntao;
 
         System.out.println("Olá " + nome + " Bora testar esse programa aqui.");
         // bora ver mano
@@ -24,13 +25,15 @@ public class ola {
         System.out.println("Olá " + nome + " seja bem-vindo!");
 
 
-
+        boraVerEntao = "Bora ver então mano";
         // implementação extra no código
         if(flag == true){
             scanner.close();
         } else{
             System.out.println("bora ver né");
         }
+
+        System.out.println(boraVerEntao);
 
     }
 }
