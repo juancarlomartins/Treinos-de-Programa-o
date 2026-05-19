@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class BubbleSort {
-
+    // criando a função principal da main...
     public static void bubbleSort(int[] vetor) {
         int n = vetor.length;
         for (int i = 0; i < n - 1; i++) {
