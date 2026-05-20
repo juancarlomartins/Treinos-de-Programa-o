@@ -1,6 +1,11 @@
+import java.util.Scanner;
 public class nota {
     public static void main(String[] args) {
-        int nota = 85;
+
+        Scanner scanner = new Scanner(System.in);
+        int nota;
+        System.out.print("Digite aqui a sua nota: ");
+        nota = scanner.nextInt();
 
         if (nota >= 90){
             System.out.println("Conceito A");
@@ -15,9 +20,12 @@ public class nota {
         //Usando operador ternário (forma compacta)
         String resultado = (nota >= 70) ? "Aprovado" : "Reprovado";
         System.out.println("Resultado: " + resultado);
-///git add .
-/// git status
-/// git commit
-/// git push
+
+        boolean flag = true;
+        if (flag == true){
+            scanner.close();
+        } else {
+            System.out.println("Nem vai chegar aqui isso");
+        }
     }   
 }
