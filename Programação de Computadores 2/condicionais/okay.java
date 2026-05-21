@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class okay {
 
-    public void printDados(String nome, int idade, String curso){
+    public static void printDados(String nome, int idade, String curso){
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Curso: " + curso);
@@ -22,7 +22,8 @@ public class okay {
         System.out.print("Digite o curso que você faz: ");
         curso = scanner.nextLine();
 
-        System.out.println("=== Dados Coletados do Usuário ===");
+        System.out.println("\n=== Dados Coletados do Usuário ===");
+        printDados(nome, idade, curso);
 
         int num = 1;
 

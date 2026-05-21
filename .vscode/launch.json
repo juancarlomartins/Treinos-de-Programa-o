@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "okay",
+      "request": "launch",
+      "mainClass": "okay",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
       "name": "nota",
       "request": "launch",
       "mainClass": "nota",
