@@ -7,6 +7,8 @@ public class nota {
         System.out.print("Digite aqui a sua nota: ");
         nota = scanner.nextInt();
 
+
+        // criando a condição para atribuir o conceito a nota que foi dada do aluno.
         if (nota >= 90){
             System.out.println("Conceito A");
         } else if (nota >= 80) {
