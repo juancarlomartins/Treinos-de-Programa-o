@@ -17,10 +17,10 @@ public class okay {
         String curso;
 
         System.out.print("Certo " + nome + ", agora vamos coletar alguns dados importantes.\n");
-        System.out.print("Digite a sua idade: ");
-        idade = scanner.nextInt();
         System.out.print("Digite o curso que você faz: ");
         curso = scanner.nextLine();
+        System.out.print("Digite a sua idade: ");
+        idade = scanner.nextInt();
 
         System.out.println("\n=== Dados Coletados do Usuário ===");
         printDados(nome, idade, curso);
