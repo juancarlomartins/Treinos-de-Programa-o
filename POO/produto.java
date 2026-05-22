@@ -44,7 +44,7 @@ public class produto {
     }
 
     // método para exibir todas as informações de um produto.
-    public void exibirProduto(String nomeP, double precoP, int quantidadeEstoque){
-        
+    public void exibirInfo(String nomeP, double precoP, int quantidadeEstoque){
+        System.out.println("=== Informações do produto ===");
     }
 }
