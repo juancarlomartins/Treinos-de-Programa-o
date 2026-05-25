@@ -20,4 +20,30 @@ public class Funcionario {
     public String getNome(){
         return nome;
     }
+    public void setSalarioBase(double salarioBase){
+        this.salarioBase = salarioBase;
+    }
+    public double getSalarioBase(){
+        return salarioBase;
+    }
+    public void setHorasTrabalhadas(int horasTrabalhadas){
+        this.horasTrabalhadas = horasTrabalhadas;
+    }
+    public int getHorasTrabalhadas(){
+        return horasTrabalhadas;
+    }
+
+    // Criando os métodos dessa classe
+    public double CalcularSalario(){
+        return salarioBase + (horasTrabalhadas * 10);
+    }
+
+    // para exibir as informações gerais desse funcionário.
+    public void exbirInfo(){
+        System.out.println("\n=== Informações do Funcionário === ");
+        System.out.println("Nome: " +  nome);
+        System.out.println("Salario base: " + salarioBase);
+        System.out.println("Horas Trabalhadas: " + horasTrabalhadas);
+        System.out.println("Total a receber: " + CalcularSalario());
+    }
 }
