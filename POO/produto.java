@@ -33,7 +33,7 @@ public class produto {
     }
 
     // agora vou criar os métodos necessários.
-    public void calcularVatorTotal(double precoP, int quantidadeEstoque){
+    public static void calcularVatorTotal(double precoP, int quantidadeEstoque){
         double resultado;
         if (quantidadeEstoque != 0){
             resultado = precoP * quantidadeEstoque;
