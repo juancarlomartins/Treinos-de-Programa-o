@@ -1,4 +1,4 @@
-package POO;
+package POO.loja;
 
 public class produto {
     private String nomeP;
