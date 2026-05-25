@@ -6,11 +6,18 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Olá seja bem-vindo ao minha loja!");
 
-        // Criando o novo objeto celular
-        Eletronico celular = new Eletronico("Samsung S23", 2499.99, 5, 24);
+        // Criando o primeiro produto
+        produto produto1 = new produto("Cadeno", 50, 25);
+        Eletronico eletronico1 = new Eletronico("Samsung s23", 2499.99, 5, 24);
 
-        //exibirInfo(celular);
+        produto1.exibirInfo();
 
+        System.out.println("\n==============================\n");
+
+        eletronico1.exibirInfo();
+        eletronico1.temGarantiaLonga(24);
+
+        System.out.println("\n==============================\n");
 
         // para fechar o scanner...
         boolean flagDesligar = true;

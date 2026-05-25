@@ -18,13 +18,9 @@ public class Eletronico extends produto {
     }
 
     @Override
-    public void exibirInfo(String nomeP, double precoP, int quantidadeEstoque){
-        System.out.println("=== Informações do produto ===");
-        System.out.println("Produto: " + nomeP);
-        System.out.println("Preço: " + precoP);
-        System.out.println("Quantidade no estoque: " + quantidadeEstoque);
-        System.out.println("garantia: " +  garantia);
-        System.out.println("===============================");
+    public void exibirInfo(){
+        super.exibirInfo();
+        System.out.println("Garantia: " + garantia + " meses.");
     }
 
     // metódo específico dessa classe

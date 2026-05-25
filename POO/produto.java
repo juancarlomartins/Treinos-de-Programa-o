@@ -33,18 +33,16 @@ public class produto {
     }
 
     // agora vou criar os métodos necessários.
-    public static void calcularVatorTotal(double precoP, int quantidadeEstoque){
-        double resultado;
-        if (quantidadeEstoque != 0){
-            resultado = precoP * quantidadeEstoque;
-            System.out.println("Valor final da compra: " + resultado);
-        } else {
-            System.out.println("O estoque desse produto acabou, volte sempre!");
-        }
+    public double calcularVatorTotal(){
+        return precoP * quantidadeEstoque;
     }
 
     // método para exibir todas as informações de um produto.
-    public void exibirInfo(String nomeP, double precoP, int quantidadeEstoque){
+    public void exibirInfo(){ // estrutura corrigida para funcionar
         System.out.println("=== Informações do produto ===");
+        System.out.println("Produto: " + nomeP);
+        System.out.println("Preço: R$ " + precoP);
+        System.out.println("Estoque: " + quantidadeEstoque + " unidades");
+        System.out.println("Valor total em estoque: R$ " + calcularVatorTotal());
     }
 }
