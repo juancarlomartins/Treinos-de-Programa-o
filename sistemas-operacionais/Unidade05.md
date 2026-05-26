@@ -8,7 +8,7 @@
 - **Latência do despacho**: tempo gasto na troca de contexto.
 
 ## Objetivos do Escalonamento
-- Manter CPU ocupada
+- Manter CPU ocupada  
 - Balancear uso da CPU
 - Privilegiar aplicações críticas
 - Maximizar **throughput** (processos concluídos por tempo)
