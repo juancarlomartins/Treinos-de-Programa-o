@@ -18,7 +18,7 @@ def merge_sort(vetor):
     if len(vetor) <= 1:
         return vetor
     
-    # PASSO 1: DIVIDIR - Encontra o ponto médio do vetor
+    # PASSO 1: DIVIDIR - Encontra o ponto médio do vetor    
     # Usa // para divisão inteira (ex: 5//2 = 2)
     meio = len(vetor) // 2
     
