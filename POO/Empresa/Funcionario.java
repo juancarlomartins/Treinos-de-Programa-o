@@ -38,7 +38,7 @@ public class Funcionario {
         return salarioBase + (horasTrabalhadas * 10);
     }
 
-    // para exibir as informações gerais desse funcionário.
+    // para exibir as informações gerais desse funcionário.  
     public void exbirInfo(){
         System.out.println("\n=== Informações do Funcionário === ");
         System.out.println("Nome: " +  nome);
