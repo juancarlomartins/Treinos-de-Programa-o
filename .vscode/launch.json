@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
       "name": "FilaDinamica",
       "request": "launch",
       "mainClass": "EstruturaDeDados.Atividade.FilaDinamica",
