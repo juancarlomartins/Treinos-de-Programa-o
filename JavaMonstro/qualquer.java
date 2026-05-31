@@ -17,14 +17,28 @@ public class qualquer {
             int escolha = scanner.nextInt();
             while (escolha == 1){
                 System.out.println("=== Calculadora básica ===");
-
+                System.out.println("");
+                System.out.print("Qual operação você deseja fazer?");
                 int escolhaC = scanner.nextInt();
 
                 if (escolhaC == 1){
                     
                 }
+                if (escolhaC == 2){
+
+                }
+                if (escolhaC == 3){
+
+                }
+                if (escolhaC == 4){
+
+                }
+                else {
+                    escolha = 10;
+                }
             }
         }
+        
         // método para desligar o scanner por completo...
         int close = 1;
         if (close == 1){
