@@ -21,10 +21,11 @@ public class qualquer {
                 int escolhaC = scanner.nextInt();
 
                 if (escolhaC == 1){
-
+                    
                 }
             }
         }
+        // método para desligar o scanner por completo...
         int close = 1;
         if (close == 1){
             System.out.println("Volte sempre!");
