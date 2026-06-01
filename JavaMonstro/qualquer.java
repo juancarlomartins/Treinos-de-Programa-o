@@ -40,6 +40,7 @@ public class qualquer {
                 }
             }
 
+            //trecho para calcular o IMC do usuário...
             while (escolha == 2){
                 System.out.println("=== Calculadora de IMC ===");
                 double peso;
