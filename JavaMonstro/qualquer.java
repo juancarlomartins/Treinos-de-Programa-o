@@ -11,6 +11,8 @@ public class qualquer {
 
         boolean flag = true;
         // Em breve vou fazer um programa que vai usar orientação a objetos para melhorar a manutenção...
+
+
         while (flag == true){
             System.out.println("Certo " + nome + ", qual a função que você deseja usar?");
             System.out.println("1- Calculadora Básica\n2- Calcular IMC\n3- Sair.");
@@ -36,6 +38,10 @@ public class qualquer {
                 else {
                     escolha = 10;
                 }
+            }
+
+            while (escolha == 2){
+                double peso;
             }
         }
         
