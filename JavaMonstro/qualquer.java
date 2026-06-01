@@ -15,7 +15,7 @@ public class qualquer {
 
         while (flag == true){
             System.out.println("Certo " + nome + ", qual a função que você deseja usar?");
-            System.out.println("1- Calculadora Básica\n2- Calcular IMC\n3- Sair.");
+            System.out.println("1- Calculadora Básica\n2- Calcular IMC\n5- Sair.");
             int escolha = scanner.nextInt();
             while (escolha == 1){
                 System.out.println("=== Calculadora básica ===");
@@ -41,7 +41,26 @@ public class qualquer {
             }
 
             while (escolha == 2){
+                System.out.println("=== Calculadora de IMC ===");
                 double peso;
+                double altura;
+                System.out.print("Certo " + nome + ", Digite o seu peso atual: ");
+                peso = scanner.nextDouble();
+                System.out.print("Certo " + nome + ", Digite o sua altura: ");
+                altura = scanner.nextDouble();
+
+                double resultado;
+
+                System.out.println("=== Resultado do Cálculo do IMC === ");
+
+
+            }
+
+
+
+
+            if (escolha == 5){
+                flag = false;
             }
         }
         
