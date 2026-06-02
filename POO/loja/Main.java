@@ -1,6 +1,7 @@
 package POO.loja;
 import java.util.Scanner;
-
+// bora ver mano...
+// atividade feita com o intuito de melhorar o entendimento dos conceitos de programação orientada a objetos.
 public class Main {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
