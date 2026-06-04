@@ -22,7 +22,7 @@ public class qualquer {
                 System.out.println("");
                 System.out.print("Qual operação você deseja fazer?");
                 int escolhaC = scanner.nextInt();
-                // criando os trechos para cada tipo de cálculo....
+                // criando os trechos para cada tipo de cálculo....     
                 if (escolhaC == 1){
                     
                 }
