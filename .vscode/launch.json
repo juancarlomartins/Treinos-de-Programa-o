@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ListaSimplesLigada",
+      "request": "launch",
+      "mainClass": "EstruturaDeDados.ListaEncadeada.ListaSimplesLigada",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
       "name": "qualquer",
       "request": "launch",
       "mainClass": "qualquer",
