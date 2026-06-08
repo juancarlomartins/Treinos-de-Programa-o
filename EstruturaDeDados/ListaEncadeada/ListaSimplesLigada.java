@@ -5,3 +5,7 @@ public class ListaSimplesLigada {
         System.out.println("bora ver mano.");
     }
 }
+    
+
+
+
