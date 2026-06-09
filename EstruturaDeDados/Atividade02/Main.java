@@ -1,5 +1,6 @@
 // Juan Carlo Teles Martins
 
+package EstruturaDeDados.Atividade02;
 public class Main {
     public static void main(String[] args) {
         System.out.println("--- Lista Simples ---");
