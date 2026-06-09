@@ -8,4 +8,5 @@ public class ListaSimplesLigada {
     
 
 // aqui vai ficar a atividade de estrutura de dados 1
+// bora ver mano...
 
