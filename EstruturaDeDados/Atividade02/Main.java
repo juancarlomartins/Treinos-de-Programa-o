@@ -11,7 +11,7 @@ public class Main {
         ls.inserirMeio(15, 2);  // posição 2
         ls.exibir(); // 5 10 15 20
 
-        ls.removerInicio();
+        ls.removerInicio();    
         ls.exibir(); // 10 15 20
 
         ls.removerMeio(1);
