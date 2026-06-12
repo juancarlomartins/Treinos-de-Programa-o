@@ -5,7 +5,7 @@ class No:
         self.direito = None
 
 # Função para criar nós
-def criar_no(valor):
+def criar_no(valor):   
     return No(valor)
 
 # 1. Criando todos os nós usando a função   
