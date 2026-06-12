@@ -8,7 +8,7 @@ class No:
 def criar_no(valor):
     return No(valor)
 
-# 1. Criando todos os nós usando a função
+# 1. Criando todos os nós usando a função   
 raiz = criar_no(50)
 no30 = criar_no(30)
 no70 = criar_no(70)
