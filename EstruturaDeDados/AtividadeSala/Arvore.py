@@ -31,7 +31,7 @@ no70.direito = no80
 print("=== VALORES DA ÁRVORE ===")
 print(f"Raiz: {raiz.valor}")
 print(f"Filho esquerdo da raiz: {raiz.esquerdo.valor}")
-print(f"Filho direito da raiz: {raiz.direito.valor}")
+print(f"Filho direito da raiz: {raiz.direito.valor}")  
 print(f"Filho esquerdo de 30: {no30.esquerdo.valor}")
 print(f"Filho direito de 30: {no30.direito.valor}")
 print(f"Filho esquerdo de 70: {no70.esquerdo.valor}")
