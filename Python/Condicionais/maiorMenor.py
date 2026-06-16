@@ -7,3 +7,8 @@ else:
     print(f"Você ainda é menor de idade {nome}, mas futuramente poderá tirar sua carteira de motorista.")
     
 print(f"\nFim do programa. Volte sempre {nome}!")   
+
+
+print("Continuando o programa brabo.")
+
+n = 10
