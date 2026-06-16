@@ -12,3 +12,5 @@ print(f"\nFim do programa. Volte sempre {nome}!")
 print("Continuando o programa brabo.")
 
 n = 10
+for i in range(1, n):
+    print(i)
