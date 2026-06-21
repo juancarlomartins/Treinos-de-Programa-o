@@ -11,6 +11,8 @@ Este repositório contém a revisão completa dos seguintes tópicos:
 5. **Pesquisa Linear**
 6. **Pesquisa Binária**
 7. **Lista de Prioridade (Heap)**
+8. **Lista Duplamente Encadeada** ⭐ NOVO
+9. **ArrayList** ⭐ NOVO
 
 ## 🎯 Como Estudar
 
@@ -26,12 +28,30 @@ Este repositório contém a revisão completa dos seguintes tópicos:
 | Pilha | LIFO | O(1) push/pop |
 | Fila | FIFO | O(1) enqueue/dequeue |
 | Lista Encadeada | Nós encadeados | O(n) busca |
+| Lista Duplamente Encadeada | Nós com 2 ponteiros | O(n) busca |
+| ArrayList | Array dinâmico | O(1) acesso, O(n) inserção meio |
 | Árvore Binária | Hierárquica | O(log n) busca |
 | Pesquisa Linear | Sequencial | O(n) |
 | Pesquisa Binária | Divisão | O(log n) |
 | Lista Prioridade | Heap | O(log n) inserção/remoção |
 
-## ⚙️ Como Compilar
+## 🆚 Comparações Importantes
+
+### ArrayList vs Lista Encadeada
+| Característica | ArrayList | Lista Encadeada |
+|----------------|-----------|-----------------|
+| Acesso | O(1) | O(n) |
+| Inserção no meio | O(n) | O(1)* |
+| Memória | Menos | Mais |
+
+### Lista Simples vs Duplamente Encadeada
+| Característica | Simples | Duplamente |
+|----------------|---------|------------|
+| Ponteiros | 1 | 2 |
+| Navegação | Uma direção | Duas direções |
+| Remoção | Precisa do anterior | Mais fácil |
+
+## 💻 Como Compilar
 
 ```bash
 # Para compilar um arquivo específico
