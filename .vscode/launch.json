@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PilhaEstatica",
+      "request": "launch",
+      "mainClass": "EstruturaDeDados.Avaliacao.PilhaEstatica.PilhaEstatica",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
+      "name": "PilhaEstatica",
+      "request": "launch",
+      "mainClass": "PilhaEstatica",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
       "name": "ListaSimplesLigada",
       "request": "launch",
       "mainClass": "EstruturaDeDados.ListaEncadeada.ListaSimplesLigada",

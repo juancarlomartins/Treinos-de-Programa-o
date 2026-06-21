@@ -1,4 +1,4 @@
-package EstruturaDeDados.Atividade02;
+
 
 class NoSimples {
     int dado;

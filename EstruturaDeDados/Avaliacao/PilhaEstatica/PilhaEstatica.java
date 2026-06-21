@@ -1,3 +1,6 @@
+
+package EstruturaDeDados.Avaliacao.PilhaEstatica;
+
 public class PilhaEstatica {
     private int[] dados;      // array para armazenar os elementos
     private int topo;          // índice do topo da pilha
@@ -50,5 +53,18 @@ public class PilhaEstatica {
             return -1;
         }
         return dados[topo];
+    }
+
+    public static void main(String[] args) {
+        System.out.println("testando a pilha braba.\n");
+        PilhaEstatica pilha = new PilhaEstatica(3);
+
+        pilha.push(5);
+        pilha.push(2);
+        pilha.push(4);
+
+        pilha.peek();
+
+
     }
 }
