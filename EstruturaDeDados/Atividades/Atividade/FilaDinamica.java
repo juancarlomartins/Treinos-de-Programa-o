@@ -1,4 +1,4 @@
-package EstruturaDeDados.Atividade;
+package EstruturaDeDados.Atividades.Atividade;
 
 class No {
     int valor;

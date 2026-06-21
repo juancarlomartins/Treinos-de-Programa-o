@@ -1,4 +1,4 @@
-package EstruturaDeDados.Atividade.auladia01dejunho;
+package EstruturaDeDados.Atividades.Atividade.auladia01dejunho;
 import java.util.Scanner;
 
 public class listaSimplesLigada {

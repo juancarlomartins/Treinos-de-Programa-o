@@ -1,4 +1,4 @@
-package EstruturaDeDados.ListaEncadeada;
+package EstruturaDeDados.Atividades.Atividade.ListaEncadeada;
 
 public class ListaSimplesLigada {
     public static void main(String[] args) {
