@@ -63,8 +63,11 @@ public class PilhaEstatica {
         pilha.push(2);
         pilha.push(4);
 
+        
+        pilha.pop();
+
         pilha.peek();
 
-
+        System.out.println(pilha.peek());
     }
 }

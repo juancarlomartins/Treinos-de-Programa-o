@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Dinamica",
+      "request": "launch",
+      "mainClass": "Praticando.Dinamica",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
+      "name": "FilaDin",
+      "request": "launch",
+      "mainClass": "Praticando.FilaDin",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
+      "name": "FilaEst",
+      "request": "launch",
+      "mainClass": "Praticando.FilaEst",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
+      "name": "pilhaEst",
+      "request": "launch",
+      "mainClass": "EstruturaDeDados.Avaliacao.PilhaEstatica.Praticando.pilhaEst",
+      "projectName": "Treinos-de-Programa-o_8237534e"
+    },
+    {
+      "type": "java",
       "name": "PilhaEstatica",
       "request": "launch",
       "mainClass": "EstruturaDeDados.Avaliacao.PilhaEstatica.PilhaEstatica",
