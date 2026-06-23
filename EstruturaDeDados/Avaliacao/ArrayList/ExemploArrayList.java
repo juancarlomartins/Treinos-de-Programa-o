@@ -6,7 +6,7 @@ public class ExemploArrayList {
     
     public static void main(String[] args) {
         
-        // ============ 1. CRIANDO UM ARRAYLIST ============
+        // ============ 1. CRIANDO UM ARRAYLIST ============   
         
         // ArrayList de String (tipo genérico)
         ArrayList<String> nomes = new ArrayList<>();
