@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class pilhaEst {
     //  Colocando os atributos principais dessa nova classe.
     private int[] dados;
-    private int capacidade;
+    private int capacidade;   
     private int topo;
 
     public pilhaEst(int capacidade){
