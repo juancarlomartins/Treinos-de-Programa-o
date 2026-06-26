@@ -2,7 +2,11 @@ package EstruturaDeDados.Avaliacao.PilhaEstatica.Praticando;
 // Juan Carlo Teles Martins
 import java.util.Scanner;
 
-// Fazendo minha própria implementação de pilha estática.
+// Fazendo minha própria implementação de pilha estática.          
+
+
+
+
 
 public class pilhaEst {
     //  Colocando os atributos principais dessa nova classe.
