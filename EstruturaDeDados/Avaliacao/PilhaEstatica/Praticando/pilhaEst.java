@@ -11,7 +11,7 @@ public class pilhaEst {
     private int topo;
 
     public pilhaEst(int capacidade){
-        this.capacidade = capacidade; // Instanciando essa nova pilha que vai ser criada.
+        this.capacidade = capacidade; // Instanciando essa nova pilha que vai ser criada.  
         this.dados = new int[capacidade]; // Defininddo o tamanho máximo da pilha.
 
         // Agora vamos iniciar o topo da pilha com -1 (para pilha vazia).
