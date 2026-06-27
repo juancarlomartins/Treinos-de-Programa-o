@@ -5,9 +5,6 @@ import java.util.Scanner;
 // Fazendo minha própria implementação de pilha estática.          
 
 
-
-
-
 public class pilhaEst {
     //  Colocando os atributos principais dessa nova classe.
     private int[] dados;
