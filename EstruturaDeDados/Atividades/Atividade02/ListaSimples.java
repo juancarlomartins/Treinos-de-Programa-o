@@ -1,5 +1,3 @@
-
-
 class NoSimples {
     int dado;
     NoSimples proximo;
