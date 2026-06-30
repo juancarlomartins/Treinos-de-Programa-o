@@ -7,7 +7,7 @@ def merge_sort(vetor):
     depois mescla de forma ordenada.
     
     Parâmetro:
-    vetor - lista de números a ser ordenada
+    vetor - lista de números a ser ordenada   
     
     Retorno:
     lista ordenada
