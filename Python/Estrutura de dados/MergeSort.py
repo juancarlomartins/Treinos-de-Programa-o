@@ -129,7 +129,7 @@ def exibir_vetor(vetor, titulo):
     print(f"Total de elementos: {len(vetor)}")
 
 
-# PROGRAMA PRINCIPAL
+# PROGRAMA PRINCIPAL    
 def main():  
     """
     Função principal que controla o fluxo do programa
