@@ -41,7 +41,7 @@ def mesclar(esquerda, direita):
     """
     Função que mescla duas listas já ordenadas em uma única lista ordenada
     
-    Parâmetros:
+    Parâmetros:   
     esquerda - primeira lista (já ordenada)
     direita - segunda lista (já ordenada)
     
