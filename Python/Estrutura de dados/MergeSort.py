@@ -29,7 +29,7 @@ def merge_sort(vetor):
     direita = vetor[meio:]
     
     # PASSO 2: CONQUISTAR - Chama recursivamente o merge_sort para cada metade
-    # Isso vai continuar dividindo até chegar em subvetores de tamanho 1
+    # Isso vai continuar dividindo até chegar em subvetores de tamanho 1  
     esquerda_ordenada = merge_sort(esquerda)
     direita_ordenada = merge_sort(direita)
     
