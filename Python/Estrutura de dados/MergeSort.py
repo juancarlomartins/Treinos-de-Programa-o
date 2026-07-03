@@ -33,7 +33,7 @@ def merge_sort(vetor):
     esquerda_ordenada = merge_sort(esquerda)
     direita_ordenada = merge_sort(direita)
     
-    # PASSO 3: COMBINAR - Mescla as duas metades já ordenadas
+    # PASSO 3: COMBINAR - Mescla as duas metades já ordenadas  
     return mesclar(esquerda_ordenada, direita_ordenada)
 
 
