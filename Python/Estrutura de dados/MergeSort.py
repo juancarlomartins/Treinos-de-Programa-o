@@ -19,11 +19,11 @@ def merge_sort(vetor):
         return vetor
     
     # PASSO 1: DIVIDIR - Encontra o ponto médio do vetor       
-    # Usa // para divisão inteira (ex: 5//2 = 2)
+    # Usa // para divisão inteira (ex: 5//2 = 2)  
     meio = len(vetor) // 2
     
     # Divide o vetor em duas metades  
-    # vetor[:meio] - do início até o meio (excluindo o meio)
+    # vetor[:meio] - do início até o meio (excluindo o meio)  
     # vetor[meio:] - do meio até o final
     esquerda = vetor[:meio]
     direita = vetor[meio:]
