@@ -10,7 +10,7 @@ def merge_sort(vetor):
     vetor - lista de números a ser ordenada   
     
     Retorno:
-    lista ordenada
+    lista ordenada    
     """
     
     # CASO BASE: se o vetor tem 0 ou 1 elemento, já está ordenado
