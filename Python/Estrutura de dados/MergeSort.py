@@ -12,7 +12,7 @@ def merge_sort(vetor):
     Retorno:
     lista ordenada    
     """
-    
+          
     # CASO BASE: se o vetor tem 0 ou 1 elemento, já está ordenado
     # Esta é a condição de parada da recursão
     if len(vetor) <= 1:
