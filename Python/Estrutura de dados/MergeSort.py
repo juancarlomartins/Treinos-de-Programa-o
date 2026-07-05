@@ -2,7 +2,7 @@ import random  # Biblioteca para gerar números aleatórios
 
 def merge_sort(vetor):
     """
-    Função principal do Merge Sort
+    Função principal do Merge Sort   
     Divide o vetor recursivamente até ter subvetores de tamanho 1,
     depois mescla de forma ordenada.
     
