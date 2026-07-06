@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class ola {
-
+       
     public int numero;
     public String nomeJogador;
     public String nomeInimigo;
