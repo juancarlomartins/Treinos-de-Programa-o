@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ola {
+public class ola {    
        
     public int numero;
     public String nomeJogador;
