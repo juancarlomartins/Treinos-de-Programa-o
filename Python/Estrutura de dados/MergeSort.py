@@ -43,7 +43,7 @@ def mesclar(esquerda, direita):
     
     Parâmetros:   
     esquerda - primeira lista (já ordenada)
-    direita - segunda lista (já ordenada)
+    direita - segunda lista (já ordenada)        
     
     Retorno:
     lista mesclada e ordenada
