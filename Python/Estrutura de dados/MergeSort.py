@@ -49,12 +49,12 @@ def mesclar(esquerda, direita):
     lista mesclada e ordenada
     """
     
-    resultado = []  # Lista que vai armazenar o resultado da mesclagem
+    resultado = []  # Lista que vai armazenar o resultado da mesclagem    
     i = 0  # Índice/ponteiro para percorrer a lista esquerda    
     j = 0  # Índice/ponteiro para percorrer a lista direita     
     
     # Enquanto ambas as listas ainda tiverem elementos para comparar
-    # O loop continua enquanto i e j não chegaram ao final de suas listas
+    # O loop continua enquanto i e j não chegaram ao final de suas listas   
     while i < len(esquerda) and j < len(direita):
         
         # Compara o elemento atual da esquerda com o da direita
