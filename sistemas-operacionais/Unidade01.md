@@ -27,7 +27,7 @@
 - 1991: LINUX
 - 1984: Mac OS
 - 2001: Mac OS X
-- 1982: MS-DOS
+- 1982: MS-DOS    
 - 1990: Windows 3.0
 - 2003: Android (baseado em Linux)
 
