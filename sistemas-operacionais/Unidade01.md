@@ -13,7 +13,7 @@
 - **Robustez**: tolerante a falhas
 - **Escalabilidade**: usa recursos adicionais
 - **Portabilidade**: opera em diferentes hardwares
-- **Segurança**: impede acesso não autorizado
+- **Segurança**: impede acesso não autorizado   
 - **Interatividade**: resposta rápida ao usuário    
 - **Usabilidade**: atende bem a base de usuários
 
