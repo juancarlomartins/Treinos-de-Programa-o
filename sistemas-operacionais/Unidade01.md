@@ -17,7 +17,7 @@
 - **Interatividade**: resposta rápida ao usuário    
 - **Usabilidade**: atende bem a base de usuários
 
-## Evolução Histórica
+## Evolução Histórica    
 - 1940-50: Monoprogramáveis
 - 1960: Sistemas em lote (batch)
 - 1965: MULTICS (base do UNIX)
