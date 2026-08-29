@@ -15,7 +15,7 @@
 - **Portabilidade**: opera em diferentes hardwares   
 - **Segurança**: impede acesso não autorizado   
 - **Interatividade**: resposta rápida ao usuário    
-- **Usabilidade**: atende bem a base de usuários
+- **Usabilidade**: atende bem a base de usuários      
 
 ## Evolução Histórica    
 - 1940-50: Monoprogramáveis
