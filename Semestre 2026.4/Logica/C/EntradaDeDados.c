@@ -8,6 +8,6 @@ int mains(){
     float altura;
     double peso;
 
-    // vamos começar a coletar essas dados do usuário.
+    // vamos começar a coletar essas dados do usuário.  
     
 }
