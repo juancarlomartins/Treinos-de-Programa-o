@@ -17,7 +17,7 @@ int main(){
     printf("A altura é: %.2f\n", altura);
     printf("O peso definido foi:%.1f", peso);   
     printf("A inicial do nome: %c\n", inicial);
-    printf("E o nome: %s\n", nome);
+    printf("E o nome: %s\n", nome);   
 
     
     return 0;
