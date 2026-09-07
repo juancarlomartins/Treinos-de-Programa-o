@@ -1,19 +1,20 @@
 #include <stdio.h>
 
-int mains(){
-
-    // agora vamos trabalhar com a entrada de dados.
-    // declarando as variáveis que vamos usar.
-    int idade;
-    float altura;
-    double peso;
-    char nome [50];
-
-    // vamos começar a coletar essas dados do usuário.  
-    printf("Digite o seu nome completo: ");
-    scanf("%s", nome);
+int main() {
+    int numero;
+    float preco;
+    char nome[50];
     
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);  // & é importante!
     
-
-    // Imprimindo os dados que foram coletados do usuários.
+    printf("Digite um preço: ");
+    scanf("%f", &preco);
+    
+    printf("Digite seu nome: ");
+    scanf("%s", nome);  // strings não precisam de &
+    
+    printf("\nVocê digitou: %d, R$%.2f e %s\n", numero, preco, nome);
+    
+    return 0;
 }
