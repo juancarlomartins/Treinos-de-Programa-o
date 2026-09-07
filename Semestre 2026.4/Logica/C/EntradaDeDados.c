@@ -7,7 +7,13 @@ int mains(){
     int idade;
     float altura;
     double peso;
+    char nome [50];
 
     // vamos começar a coletar essas dados do usuário.  
+    printf("Digite o seu nome completo: ");
+    scanf("%s", nome);
     
+    
+
+    // Imprimindo os dados que foram coletados do usuários.
 }
