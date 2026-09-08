@@ -20,7 +20,7 @@ int main(){
 
     for(int i = 0; i <= 3; i++){
         int numAtual = numeros[i];
-        printf("%d ",numeros[i]);
+        printf("%d ",numeros[i]);  
         if (numAtual > maior){
             maior = numAtual;
         };
