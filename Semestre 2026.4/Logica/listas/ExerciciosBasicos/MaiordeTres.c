@@ -11,7 +11,7 @@ int main(){
     printf("Digite o valor do segundo número: ");
     scanf("%d", &b);
     printf("Digite o valor do terceiro número: ");
-    scanf("%d", &c);
+    scanf("%d", &c);   
 
     printf("\n=== COMPARANDO OS NÚMEROS ===\n");
     int numeros[3] = {a, b, c};
