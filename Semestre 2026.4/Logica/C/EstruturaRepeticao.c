@@ -11,7 +11,7 @@ int main() {
     // WHILE - repete enquanto condição for verdadeira
     printf("WHILE: ");
     int j = 0;
-    while(j < 5) {
+    while(j < 5) {  
         printf("%d ", j);
         j++;
     }
