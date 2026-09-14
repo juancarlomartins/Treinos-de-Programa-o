@@ -18,7 +18,7 @@ int main() {
     printf("\n");
     
     // DO-WHILE - executa pelo menos uma vez
-    printf("DO-WHILE: ");
+    printf("DO-WHILE: ");  
     int k = 0;
     do {
         printf("%d ", k);
