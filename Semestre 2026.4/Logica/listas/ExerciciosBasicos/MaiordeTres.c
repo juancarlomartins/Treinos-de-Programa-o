@@ -7,7 +7,7 @@ int main(){
 
     printf("=== Comparador de três números ===\n");
     printf("Digite o valor do primeiro número: ");
-    scanf("%s", &a);
+    scanf("%d", &a);
     printf("Digite o valor do segundo número: ");
     scanf("%d", &b);
     printf("Digite o valor do terceiro número: ");
@@ -18,16 +18,15 @@ int main(){
 
     int maior = 0;
 
-    for(int i = 0; i <= 3; i++){
-        int numAtual = numeros[i];
-        printf("%d ",numeros[i]);  
-        if (numAtual > maior){
-            maior = numAtual;
-        };
+    for(int i = 0; i < 3;i++){
+        if(maior < numeros[i]){
+            maior = numeros[i];
+        }
     }
-
         // posso resolver isso apenas comparando as próprias variáveis entre si no loop for.
     printf("\nO maior número digitado foi: %d\n", maior);
+
+    //concluído com sucesso.
 
     return 0;
 }
