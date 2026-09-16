@@ -26,7 +26,7 @@ int main(){
         // posso resolver isso apenas comparando as próprias variáveis entre si no loop for.
     printf("\nO maior número digitado foi: %d\n", maior);
 
-    //concluído com sucesso.
+    //concluído com sucess
 
     return 0;
 }
