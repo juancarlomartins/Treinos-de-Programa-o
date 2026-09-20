@@ -14,7 +14,7 @@ int main() {
     int contador = num;
     int multiplicador = num;
     int resultado = 0;
-    int a;
+    int a;  
 
     for(int i = 1; i < contador; i++){
         multiplicador = multiplicador - 1;
