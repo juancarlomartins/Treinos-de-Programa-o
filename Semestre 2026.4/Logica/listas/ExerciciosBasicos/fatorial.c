@@ -17,8 +17,6 @@ int main() {
     int a;  
 
     for(int i = 1; i < contador; i++){
-        multiplicador = multiplicador - 1;
-        printf("%d x %d = %d\n", num, multiplicador, (num * multiplicador));
         
     }
 

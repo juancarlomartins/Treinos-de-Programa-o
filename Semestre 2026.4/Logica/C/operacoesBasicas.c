@@ -16,7 +16,7 @@ int main() {
     c--;  // c = 5
     printf("c: %d\n", c);
     
-    // Atribuição composta
+    // Atribuição composta   
     int d = 10;
     d += 5;  // d = 15
     d *= 2;  // d = 30
