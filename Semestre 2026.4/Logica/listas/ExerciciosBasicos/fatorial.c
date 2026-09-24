@@ -20,7 +20,7 @@ int main() {
     for(int i = 1; i < contador; i++){
         a = num * fatorial - 1;   
         resultado = resultado + a;
-        num--;
+        num--;  
         fatorial--;
     }
 
