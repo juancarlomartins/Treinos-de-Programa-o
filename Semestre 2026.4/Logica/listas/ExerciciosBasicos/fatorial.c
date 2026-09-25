@@ -12,7 +12,7 @@ int main() {
 
     // variáveis de controle
     int contador = num;
-    int fatorial = num;
+    int fatorial = num;  
     int numAtual = num;
     int resultado = 0;
     int a;
