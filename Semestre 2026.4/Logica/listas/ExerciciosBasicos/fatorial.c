@@ -14,7 +14,7 @@ int main() {
     int contador = num;
     int fatorial = num;  
     int numAtual = num;
-    int resultado = 0;
+    int resultado = 0;  
     int a;
 
     for(int i = 1; i < contador; i++){
