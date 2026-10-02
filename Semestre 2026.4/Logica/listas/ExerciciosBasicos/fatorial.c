@@ -21,7 +21,7 @@ int main() {
         a = num * fatorial - 1;   
         resultado = resultado + a;    
         num--;  
-        fatorial--;
+        fatorial--;   
     }
 
     printf("\nResultado final: %d\n", resultado);
