@@ -8,7 +8,7 @@ int main() {
 
     printf("Seja bem-vindo meu parceiro\n");
     printf("Vamos calcular o fatorial, digite um número: ");
-    scanf("%d", &num);   
+    scanf("%d", &num);       
 
     // variáveis de controle
     int contador = num;
