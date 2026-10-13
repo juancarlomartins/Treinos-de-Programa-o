@@ -10,16 +10,16 @@ int main() {
     printf("Divisão: %d\n", a / b);      // Divisão inteira
     printf("Resto: %d\n", a % b);        // Módulo
     
-    // Incremento/Decremento
+    // Incremento/Decremento   s
     int c = 5;
-    c++;  // c = 6   
+    c++;  // c = 6     
     c--;  // c = 5
     printf("c: %d\n", c);
     
     // Atribuição composta   
     int d = 10;        
-    d += 5;  // d = 15
-    d *= 2;  // d = 30
+    d += 5;  // d = 15    
+    d *= 2;  // d = 30    
     printf("d: %d\n", d);
     
     return 0;
