@@ -24,5 +24,5 @@ int main() {
         fatorial--;   
     }
 
-    printf("\nResultado final: %d\n", resultado);
+    printf("\nResultado final: %d\n", resultado);     
 }
