@@ -9,12 +9,12 @@ int main(){
     printf("Digite o valor do primeiro número: ");
     scanf("%d", &a);
     printf("Digite o valor do segundo número: ");
-    scanf("%d", &b);
+    scanf("%d", &b);     
     printf("Digite o valor do terceiro número: ");
     scanf("%d", &c);   
 
     printf("\n=== COMPARANDO OS NÚMEROS ===\n");
-    int numeros[3] = {a, b, c};
+    int numeros[3] = {a, b, c};    
 
     int maior = 0;
 

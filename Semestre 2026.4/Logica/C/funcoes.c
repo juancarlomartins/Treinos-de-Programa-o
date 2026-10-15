@@ -10,10 +10,10 @@ int main() {
     
     saudacao("João");
     
-    return 0;
+    return 0;    
 }
 
-// Definição da função
+// Definição da função    
 int soma(int a, int b) {
     return a + b;
 }
