@@ -4,7 +4,7 @@ int main() {
     // Declarando e inicializando
     int numeros[5] = {10, 20, 30, 40, 50};
     
-    // Acessando elementos
+    // Acessando elementos   
     printf("Primeiro elemento: %d\n", numeros[0]);
     printf("Último elemento: %d\n", numeros[4]);
     
@@ -12,7 +12,7 @@ int main() {
     printf("Todos os elementos: ");
     for(int i = 0; i < 5; i++) {
         printf("%d ", numeros[i]);
-    }
+    }   
     printf("\n");
     
     // Array de strings
