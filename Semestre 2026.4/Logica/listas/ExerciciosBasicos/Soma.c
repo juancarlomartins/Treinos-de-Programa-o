@@ -16,5 +16,5 @@ int main(){
     printf("\nO resultado da soma de %d + %d é: %d: ", a, b, soma);
 
     //concluído.
-    return 0;
+    return 0;      
 } //bora ver mano
