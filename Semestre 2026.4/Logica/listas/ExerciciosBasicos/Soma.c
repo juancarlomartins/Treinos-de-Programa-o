@@ -15,6 +15,6 @@ int main(){
     printf("=== RESULTADO ===");
     printf("\nO resultado da soma de %d + %d é: %d: ", a, b, soma);   
 
-    //concluído.
+    //concluído.             
     return 0;      
 } //bora ver mano        
