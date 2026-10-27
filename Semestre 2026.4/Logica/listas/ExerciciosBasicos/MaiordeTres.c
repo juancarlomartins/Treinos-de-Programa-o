@@ -20,7 +20,7 @@ int main(){
 
     for(int i = 0; i < 3;i++){
         if(maior < numeros[i]){
-            maior = numeros[i];
+            maior = numeros[i];    
         }
     }
         // posso resolver isso apenas comparando as próprias variáveis entre si no loop for.
