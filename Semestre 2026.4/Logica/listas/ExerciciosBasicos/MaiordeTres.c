@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &a);
     printf("Digite o valor do segundo número: ");
     scanf("%d", &b);     
-    printf("Digite o valor do terceiro número: ");
+    printf("Digite o valor do terceiro número: ");   
     scanf("%d", &c);   
 
     printf("\n=== COMPARANDO OS NÚMEROS ===\n");
