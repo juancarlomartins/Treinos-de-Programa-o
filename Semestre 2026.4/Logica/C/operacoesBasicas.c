@@ -20,7 +20,7 @@ int main() {
     int d = 10;        
     d += 5;  // d = 15    
     d *= 2;  // d = 30    
-    printf("d: %d\n", d);
+    printf("d: %d\n", d);   
     
     return 0;
 }

@@ -16,7 +16,7 @@ int main(){
     printf("\n=== COMPARANDO OS NÚMEROS ===\n");
     int numeros[3] = {a, b, c};    
 
-    int maior = 0;
+    int maior = 0;    
 
     for(int i = 0; i < 3;i++){
         if(maior < numeros[i]){   

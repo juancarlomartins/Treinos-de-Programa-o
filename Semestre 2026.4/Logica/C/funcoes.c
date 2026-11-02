@@ -19,5 +19,5 @@ int soma(int a, int b) {
 }
 
 void saudacao(char nome[]) {
-    printf("Olá, %s!\n", nome);
+    printf("Olá, %s!\n", nome);    
 }

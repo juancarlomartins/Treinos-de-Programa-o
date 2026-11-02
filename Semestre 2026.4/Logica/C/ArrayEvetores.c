@@ -11,7 +11,7 @@ int main() {
     // Percorrendo o array
     printf("Todos os elementos: ");
     for(int i = 0; i < 5; i++) {
-        printf("%d ", numeros[i]);
+        printf("%d ", numeros[i]);   
     }   
     printf("\n");
     
