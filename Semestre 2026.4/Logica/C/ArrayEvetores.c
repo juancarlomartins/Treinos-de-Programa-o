@@ -6,11 +6,11 @@ int main() {
     
     // Acessando elementos   
     printf("Primeiro elemento: %d\n", numeros[0]);
-    printf("Último elemento: %d\n", numeros[4]);
+    printf("Último elemento: %d\n", numeros[4]);   
     
     // Percorrendo o array
     printf("Todos os elementos: ");
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < 5; i++) {                          
         printf("%d ", numeros[i]);   
     }   
     printf("\n");
