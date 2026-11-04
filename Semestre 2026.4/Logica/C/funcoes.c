@@ -15,7 +15,7 @@ int main() {
 
 // Definição da função    
 int soma(int a, int b) {
-    return a + b;
+    return a + b;    
 }
 
 void saudacao(char nome[]) {
