@@ -5,7 +5,7 @@ int main(){
 
     printf("=== Soma de dois Números ===\n");
     printf("Digite aqui o valor do primeiro número: ");   
-    scanf("%d", &a);
+    scanf("%d", &a);   
 
     printf("Digite agora o valor do segundo número: ");   
     scanf("%d", &b);

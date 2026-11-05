@@ -18,7 +18,7 @@ int main(){
 
     int maior = 0;    
 
-    for(int i = 0; i < 3;i++){
+    for(int i = 0; i < 3;i++){   
         if(maior < numeros[i]){   
             maior = numeros[i];      
         }

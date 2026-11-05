@@ -6,7 +6,7 @@ int main(){
     printf("Digite qual o número que você quer ver a tabuada: ");
     scanf("%d", &num);
 
-    contador = 1;
+    contador = 1;   
     printf("\n=== Tabuada do %d ===", num);
     for(int i = 1; i <= 10; i++){
         resultado = num * contador;

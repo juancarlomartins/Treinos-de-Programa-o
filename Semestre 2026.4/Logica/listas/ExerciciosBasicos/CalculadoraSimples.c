@@ -10,7 +10,7 @@ int main(){
     if(c == 1){
         printf("\n=== Operação soma ===\n");
         printf("Digite o valor do primeiro número: ");
-        scanf("%d", &a);
+        scanf("%d", &a);   
         printf("Digite valor do seguno número: ");
         scanf("%d", &b);
         int resultado = a + b;
