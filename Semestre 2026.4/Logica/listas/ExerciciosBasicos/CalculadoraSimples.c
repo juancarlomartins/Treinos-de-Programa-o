@@ -14,7 +14,7 @@ int main(){
         printf("Digite valor do seguno número: ");
         scanf("%d", &b);
         int resultado = a + b;
-        printf("Resultado: %d\n", resultado);
+        printf("Resultado: %d\n", resultado);   
     }
     if(c == 2){
         printf("\n=== Operação Subtração ===\n");
