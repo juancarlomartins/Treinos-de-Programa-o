@@ -11,9 +11,9 @@ int main() {
     // Percorrendo o array
     printf("Todos os elementos: ");
     for(int i = 0; i < 5; i++) {                          
-        printf("%d ", numeros[i]);   
+        printf("%d ", numeros[i]);      
     }   
-    printf("\n");
+    printf("\n");  
     
     // Array de strings
     char frutas[3][10] = {"Maçã", "Banana", "Laranja"};
