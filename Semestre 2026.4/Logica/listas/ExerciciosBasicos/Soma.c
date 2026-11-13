@@ -10,7 +10,7 @@ int main(){
     printf("Digite agora o valor do segundo número: ");   
     scanf("%d", &b);
     
-    int soma = a + b;
+    int soma = a + b;   
     
     printf("=== RESULTADO ===");
     printf("\nO resultado da soma de %d + %d é: %d: ", a, b, soma);   
