@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &a);   
 
     printf("Digite agora o valor do segundo número: ");   
-    scanf("%d", &b);
+    scanf("%d", &b);   
     
     int soma = a + b;   
     

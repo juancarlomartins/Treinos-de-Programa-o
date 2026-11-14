@@ -13,7 +13,7 @@ int main() {
     // Incremento/Decremento   s
     int c = 5;
     c++;  // c = 6     
-    c--;  // c = 5
+    c--;  // c = 5   
     printf("c: %d\n", c);  
     
     // Atribuição composta   
