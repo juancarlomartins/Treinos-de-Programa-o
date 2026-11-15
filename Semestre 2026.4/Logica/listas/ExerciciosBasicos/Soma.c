@@ -12,7 +12,7 @@ int main(){
     
     int soma = a + b;   
     
-    printf("=== RESULTADO ===");
+    printf("=== RESULTADO ===");   
     printf("\nO resultado da soma de %d + %d é: %d: ", a, b, soma);   
 
     //concluído.             
