@@ -16,7 +16,7 @@ int main(void){
 
     // 2- Exemplgo com MASTER (apenas a Thread 0)
     #pragma omp master
-    {
+    {   
       config = 100;
       printf("[MASTER] Thread 0 configurou config = %d\n", config);
     } // ==> SEM barreira implicita! Outras threads continuak direto.

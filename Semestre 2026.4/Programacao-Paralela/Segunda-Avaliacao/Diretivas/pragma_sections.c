@@ -19,7 +19,7 @@ int main(){
       int id = omp_get_thread_num();
       printf("Secao 2 [Calculo B] executada pela thread %d\n", id);
     }
-  } // Barreia implícita: ambas as secoes concluem aqui
+  } // Barreia implícita: ambas as secoes concluem aqui   
 
   return 0;
 }

@@ -2,5 +2,5 @@
 #include <omp.h>
 
 int main(){
-    printf("bora ver mano");
+    printf("bora ver maaano");
 }
