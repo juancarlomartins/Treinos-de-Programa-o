@@ -19,7 +19,7 @@ int main(){
   {
     id = omp_get_thread_num();
     #pragma omp for
-    for(i = 0; i < N; i++){
+    for(i = 0; i < N; i++){   
       c[i] = a[i] + b[i];
       printf("Thread %d executa interface %d (c[%d = %.1f])\n", id, i, i, c[i]);
     }

@@ -1,7 +1,7 @@
 // Sincronização de Fases com Barrier
 #include <stdio.h>
 #include <unistd.h> // Para sleep()
-#include <omp.h>
+#include <omp.h>  
 
 int main(void) {
  omp_set_num_threads(3);

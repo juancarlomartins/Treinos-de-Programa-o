@@ -11,7 +11,7 @@ int main(){
     #pragma omp section
     {
       int id = omp_get_thread_num();
-      printf("Secao 1 [Calculo A] executada pela thread %d\n", id);
+      printf("Secao 1 [Calculo A] executada pela thread %d\n", id);  
     }
 
     #pragma omp section

@@ -4,7 +4,7 @@
 
 int main(void){
   int config = 0;
-  omp_set_num_threads(3);
+  omp_set_num_threads(3); 
 
   #pragma omp parallel shared(config)
   {
