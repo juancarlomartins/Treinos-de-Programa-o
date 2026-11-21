@@ -24,4 +24,5 @@ int main(){
       printf("Thread %d executa interface %d (c[%d = %.1f])\n", id, i, i, c[i]);
     }
   }
+}
 
