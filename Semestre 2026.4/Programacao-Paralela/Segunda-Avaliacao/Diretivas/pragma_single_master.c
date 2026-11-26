@@ -11,8 +11,8 @@ int main(void){
     // 1- Exemplo com SINGLE (primeira thread que chegar)
     #pragma omp single
     {
-      printf("{SINGLE} Thread %d inicializando recurso unico...\n", omp_get_thread_num());
-    } // ===> Barreira implicita aqui! todos esperam.
+      printf("{SINGLE} Thread %d inicializando recurso unico...\n", omp_get_thread_num());   
+    } // ===> Barreira implicita aqui! todos esperam.   
 
     // 2- Exemplgo com MASTER (apenas a Thread 0)
     #pragma omp master
